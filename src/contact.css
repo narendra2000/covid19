@@ -11,12 +11,12 @@ a
     border: 1px solid #0bb7a7;
     /* background: #FFFFFF 0% 0% no-repeat padding-box; */
     border: 1px solid #0BB7A7;
-    border-radius: 40px;
+    border-radius: 30px;
     opacity: 1;
     float: left;
     height: 11vw;
     margin-left:5%;
     text-align: center;
     padding: 2vw;
-    background-color: grey;
+    background-color: #e38d3a;
 }

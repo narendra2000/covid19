@@ -46,35 +46,34 @@ class Contact extends Component
         return(
             <div className="but">
             
-            <div className="container">
-            
-            <table className="table table-striped">
-            <thead className="thead-dark">
-        
-
-            <tr>
-                <th scope="col">S.No</th>
-                <th scope="col">State</th>
-                <th scope="col">Contact</th>
-            </tr>
-        </thead>
-        <tbody>
-        {this.state.char.map((data,index) => (<tr>
-            <th scope="row">
-                {index+1}
-            </th>
-            <td>
-                {data.loc}
-            </td>
-            <td>
-                {data.number}
-            </td>
-        </tr>))}
-        
-        </tbody>
-      </table>
-           
-      </div>
+                <div className="container">
+                    <div >
+                    <table className="table table-striped" >
+                    <thead className="thead-dark" >
+                    <tr>
+                        <th scope="col">S.No</th>
+                        <th scope="col">State</th>
+                        <th scope="col">Contact</th>
+                    </tr>
+                    </thead>
+                <tbody >
+                {this.state.char.map((data,index) => (<tr>
+                    <th scope="row">
+                        {index+1}
+                    </th>
+                    <td>
+                        {data.loc}
+                    </td>
+                    <td>
+                        {data.number}
+                    </td>
+                </tr>))}
+                
+                </tbody>
+              </table>
+                    </div>
+       
+                </div>
             </div>
           )
     }

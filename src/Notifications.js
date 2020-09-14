@@ -36,11 +36,9 @@ class Notifications extends Component
             <div className="but">
             
             <div className="container">
-            
+           
             <table className="table table-striped">
             <thead className="thead-dark">
-        
-
             <tr>
                 <th scope="col">Date</th>
                 <th scope="col">Notification</th>
