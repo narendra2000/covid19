@@ -1,3 +1,8 @@
+ABOUT PROJECT : 
+  This project displays the current status of COVID-19 in India using official API provided.
+  Also this pull request if for HACTOBER FEST.
+  Contributor: AMAN SINGH
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
